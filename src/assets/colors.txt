@@ -1,0 +1,5 @@
+#433b30 - Dark Grey
+#1e586b - Navy Blue
+#65cee5 - Light Blue
+#acd8c2 - Light green
+#fbf7e8 - White Green

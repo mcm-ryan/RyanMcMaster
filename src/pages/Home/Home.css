@@ -24,6 +24,16 @@
   padding-top: 25px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  display: flex;
+  align-items: center;
+}
+
+.linkedInIcon{
+  height: 30px;
 }
 
 .resume_button {
