@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #65cee5;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+  position: fixed; /* Keeps the header fixed at the top */
+  top: 0; /* Aligns the header to the top */
+  left: 0; /* Ensures the header starts from the very left of the screen */
+  z-index: 1000; /* Keeps the header on top of other content */
+}
+
+.header_logo {
+  flex-shrink: 0;
+  padding-left: 15px;
+}
+
+.header_image {
+  height: 40px;
+}
+
+.header_nav {
+  margin-left: auto; /* Pushes the nav to the right */
+  padding-right: 80px;
+}
+
+.header_nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+
+.header_nav-item a {
+  color: #1e586b;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: Verdana;
+}
+
+.header_nav-item a:hover {
+  color: #13404f;
+}

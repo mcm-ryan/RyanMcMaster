@@ -1,0 +1,56 @@
+.home_container {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row; /* Ensure elements are in a row */
+  align-items: center; /* Vertically center the items */
+  justify-content: space-between; /* Push the image to the right */
+  width: 100%; /* Make sure the container takes up the full width */
+  height: 100%;
+  left: 0; /* Ensures the header starts from the very left of the screen */
+  position: fixed; /* Keeps the header fixed at the top */
+  gap: 275px;
+  font-family: Verdana;
+  background-image: linear-gradient(90deg, #433b30, #fbf7e8);
+}
+
+.me_col {
+  justify-content: center;
+  padding-right: 250px;
+  width: 1700px;
+  flex-grow: 1; /* Ensures the column can grow to take up available space */
+}
+
+.button_row {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume_button {
+  border-radius: 25px; /* Fixed the border-radius to be properly applied */
+  font-size: medium;
+  border-color: #2b6f86;
+  border-width: 2px;
+  background-color: #65cee5;
+  color: #00203f;
+  height: 40px;
+  font-weight: 500;
+}
+
+.resume_button:hover {
+  border-radius: 25px; /* Fixed the border-radius to be properly applied */
+  font-size: medium;
+  border-color: white;
+  color: white;
+  background-color: #00203f;
+}
+
+.profile_image {
+  width: 100%; /* Make the image take up the full width of the parent */
+  height: auto; /* Maintain the aspect ratio of the image */
+  display: block; /* Remove any extra space below the image */
+}
+
+.bio {
+  padding-left: 125px;
+}

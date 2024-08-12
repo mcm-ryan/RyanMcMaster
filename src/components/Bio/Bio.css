@@ -1,0 +1,13 @@
+div{
+    text-align: left;
+}
+
+h1 {
+  font-family: Verdana;
+}
+
+.split_bar{
+  height: 50px;
+  width: 100%;
+  justify-content: left;
+}
