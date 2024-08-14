@@ -6,8 +6,11 @@ h1 {
   font-family: Verdana;
 }
 
+path {
+  width: 100%;
+}
+
 .split_bar{
-  height: 50px;
   width: 100%;
   justify-content: left;
 }

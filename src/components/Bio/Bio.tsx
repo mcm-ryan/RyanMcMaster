@@ -9,8 +9,6 @@ export const Bio: React.FC<BioProps> = ({ jobTitle, text, className = "" }) => {
 
       <svg
   fill="#000000"
-  width="1200px"  
-  height="800px"
   viewBox="0 0 240 24" 
   xmlns="http://www.w3.org/2000/svg"
   className="split_bar"

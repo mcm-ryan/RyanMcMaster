@@ -89,7 +89,8 @@ export const Home: React.FC<HomeProps> = () => {
             </Row>
           </Col>
         </Row>
-        <div className="downArrow">
+      </Col>
+      <div className="downArrow">
           <video
             src="../../../public/animatedIcons/animatedDownArrow.webm"
             autoPlay
@@ -99,7 +100,6 @@ export const Home: React.FC<HomeProps> = () => {
             style={{ maxWidth: "100%", height: "auto" }}
           ></video>
         </div>
-      </Col>
     </div>
   );
 };
