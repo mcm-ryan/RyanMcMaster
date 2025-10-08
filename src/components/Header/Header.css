@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   padding: 20px;
-  background-color: #65cee5;
+  background-color: #38cba2;
   width: 100%;
-  box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
-  position: fixed; /* Keeps the header fixed at the top */
-  top: 0; /* Aligns the header to the top */
-  left: 0; /* Ensures the header starts from the very left of the screen */
-  z-index: 1000; /* Keeps the header on top of other content */
+  box-sizing: border-box; 
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  z-index: 1000;
 }
 
 .header_logo {
@@ -34,13 +34,13 @@
 }
 
 .header_nav-item a {
-  color: #1e586b;
+  color: white;
   text-decoration: none;
   font-size: x-large;
   font-weight: bold;
-  font-family: Verdana;
 }
 
 .header_nav-item a:hover {
-  color: #13404f;
+  color: white;
+  font-weight: 1000;
 }

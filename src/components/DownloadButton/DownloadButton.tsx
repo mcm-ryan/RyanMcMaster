@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'antd'
 import { DownloadButtonProps } from './DownloadButton.types';
+import "./DownloadButton.css"
 
 const DownloadButton: React.FC<DownloadButtonProps> = ({text, className}) => {
   const handleDownload = () => {
@@ -25,9 +26,9 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({text, className}) => {
   };
 
   return (
-    <Button onClick={handleDownload} className={className}>
+    <button onClick={handleDownload} className="resume_button">
       {text}
-    </Button>
+    </button>
   );
 };
 

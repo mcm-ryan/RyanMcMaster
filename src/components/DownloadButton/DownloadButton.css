@@ -1,0 +1,19 @@
+.resume_button {
+  border-radius: 15px; 
+  font-size: medium;
+  border-width: 2px;
+  background-color: #38cba2;
+  color: white;
+  height: 50px;
+  font-weight: 500;
+  font-size: large;
+}
+
+.resume_button:hover {
+  border-radius: 15px; 
+  border-color: white;
+  font-size: medium;
+  color: white;
+  background-color: #41dc8e;
+  font-size: large;
+} 
